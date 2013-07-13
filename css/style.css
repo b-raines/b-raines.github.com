@@ -2635,16 +2635,17 @@ html {
   position: fixed;
   background: url('../images/background.jpg?1373665242') no-repeat;
   background-size: 100%;
+  background-color: black;
   color: black;
   font-size: 62.5%;
   margin-bottom: 20em; }
 
-/* line 20, ../sass/style.sass */
+/* line 21, ../sass/style.sass */
 h1 {
   font: times, serif;
   font-size: 2em; }
 
-/* line 24, ../sass/style.sass */
+/* line 25, ../sass/style.sass */
 #content {
   width: 60%;
   margin: 2em auto 0 auto;
@@ -2654,7 +2655,7 @@ h1 {
   -moz-box-shadow: black 0 0 1em;
   box-shadow: black 0 0 1em; }
 
-/* line 31, ../sass/style.sass */
+/* line 32, ../sass/style.sass */
 #title {
   display: inline-block;
   color: white;
@@ -2667,13 +2668,13 @@ h1 {
   -o-animation: grow 3s 1.5s ease both;
   animation: grow 3s 1.5s ease both; }
 
-/* line 39, ../sass/style.sass */
+/* line 40, ../sass/style.sass */
 .sub {
   display: inline-block;
   font: 1.2em "Aaargh";
   color: #eeeeee; }
 
-/* line 44, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 #man {
   -webkit-animation: fadeIn 4s 1.5s ease both;
   -moz-animation: fadeIn 4s 1.5s ease both;
@@ -2681,7 +2682,7 @@ h1 {
   -o-animation: fadeIn 4s 1.5s ease both;
   animation: fadeIn 4s 1.5s ease both; }
 
-/* line 47, ../sass/style.sass */
+/* line 48, ../sass/style.sass */
 #myth {
   -webkit-animation: fadeIn 4s 3s ease both;
   -moz-animation: fadeIn 4s 3s ease both;
@@ -2689,7 +2690,7 @@ h1 {
   -o-animation: fadeIn 4s 3s ease both;
   animation: fadeIn 4s 3s ease both; }
 
-/* line 50, ../sass/style.sass */
+/* line 51, ../sass/style.sass */
 #legend {
   -webkit-animation: fadeIn 4s 4.5s ease both;
   -moz-animation: fadeIn 4s 4.5s ease both;
@@ -2697,11 +2698,11 @@ h1 {
   -o-animation: fadeIn 4s 4.5s ease both;
   animation: fadeIn 4s 4.5s ease both; }
 
-/* line 54, ../sass/style.sass */
+/* line 55, ../sass/style.sass */
 #pics {
   text-align: center; }
 
-/* line 57, ../sass/style.sass */
+/* line 58, ../sass/style.sass */
 .brent {
   z-index: 0;
   display: inline-block;
@@ -2723,7 +2724,7 @@ h1 {
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out; }
-  /* line 69, ../sass/style.sass */
+  /* line 70, ../sass/style.sass */
   .brent:hover {
     z-index: 9999;
     opacity: 1;
@@ -2733,7 +2734,7 @@ h1 {
     -o-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1); }
 
-/* line 74, ../sass/style.sass */
+/* line 75, ../sass/style.sass */
 #about {
   font: 1.7em "Capsuula";
   color: #cccccc;
@@ -2751,22 +2752,22 @@ h1 {
   -o-border-radius: 0.2em;
   border-radius: 0.2em; }
 
-/* line 85, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
 footer {
   position: relative;
   bottom: -12em;
   width: 100%;
   height: 20em; }
-  /* line 90, ../sass/style.sass */
+  /* line 91, ../sass/style.sass */
   footer ul {
     text-align: center; }
-    /* line 92, ../sass/style.sass */
+    /* line 93, ../sass/style.sass */
     footer ul li {
       display: inline;
       margin: 0 3em;
       padding: 0 1em;
       bottom: 0.5em; }
-      /* line 97, ../sass/style.sass */
+      /* line 98, ../sass/style.sass */
       footer ul li img {
         width: 4em;
         height: 4em; }
