@@ -1,0 +1,101 @@
+@import compass
+
+//Animations
+@import "animate"
+
++font-face("Aaargh", font-files("Aaargh.ttf"))
++font-face("Capsuula", font-files("Capsuula.ttf"))
+
+html
+	font-size: 16px
+
+#page
+	position: fixed
+	background-image: image-url("background.jpg")
+	background-size: 100%
+	color: #000
+	font-size: 62.5% /* 1em = 10px */
+	margin-bottom: 20em
+
+h1
+	font: times, serif
+	font-size: 2em
+
+#content
+	width: 60%
+	margin: 2em auto 0 auto
+	padding: 1em 4em 4em
+	background-color: rgba(#333, 0.7)
+	+box-shadow(#000 0 0 1em)
+
+#title
+	display: inline-block
+	color: #fff
+	font: 2.5em "Aaargh"
+	margin: 0.5em
+	padding: 0.2em 0.4em
+	+border-radius(0.3em)
+	+box-shadow(#000 0 0 0.5em)
+
+.sub
+	display: inline-block
+	font: 1.2em "Aaargh"
+	color: #eee
+
+#man
+	+animate(fadeIn, 4s, 1.5s)
+
+#myth
+	+animate(fadeIn, 4s, 3s)
+
+#legend
+	+animate(fadeIn, 4s, 4.5s)
+
+
+#pics
+	text-align: center
+
+.brent
+	z-index: 0
+	opacity: 0.8
+	display: inline-block
+	position: relative
+	width: 15%
+	height: auto
+	margin: 0.2em auto
+	border: 0.5em #444 solid
+	+border-radius(0.1em)
+	+box-shadow(#222 0 0 0.5em)
+	+transition(all 0.6s ease-in-out)
+	//&:hover
+		//z-index: 9999
+		//opacity: 1
+		//+scale(1.4)
+
+#about
+	font: 1.7em "Capsuula"
+	color: #ccc
+	background-color: rgba(#fff, 0.3)
+	padding: 1em 3em
+	width: 60%
+	margin: 0 auto
+	text-align: justify
+	+box-shadow(#222 0 0 1em)
+	+border-radius(0.2em)
+
+footer
+	position: relative
+	bottom: -12em
+	width: 100%
+	height: 20em
+	ul
+		text-align: center
+		li
+			display: inline
+			margin: 0 3em
+			padding: 0 1em
+			bottom: 0.5em
+			img
+				width: 4em
+				height: 4em
+
