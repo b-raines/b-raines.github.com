@@ -3,6 +3,31 @@
 =animate($name: fadeIn, $duration: 1s, $delay: .2s, $function: ease, $mode: both)
   +experimental(animation, $name $duration $delay $function $mode)
 
+//Custom KeyFrame mixins
+
+@-webkit-keyframes grow
+  0%
+    +scale(1)
+  100%
+    +scale(1.2)
+
+@-moz-keyframes grow
+  0%
+    +scale(1)
+  100%
+    +scale(1.2)
+
+@-ms-keyframes grow
+  0%
+    +scale(1)
+  100%
+    +scale(1.2)
+
+@keyframes grow
+  0%
+    +scale(1)
+  100%
+    +scale(1.2)
 
 //KeyFrame Defaults (pre-made don't edit)
 

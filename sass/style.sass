@@ -31,11 +31,12 @@ h1
 #title
 	display: inline-block
 	color: #fff
-	font: 2.5em "Aaargh"
+	font: 2.4em "Aaargh"
 	margin: 0.5em
 	padding: 0.2em 0.4em
 	+border-radius(0.3em)
 	+box-shadow(#000 0 0 0.5em)
+	+animate(grow, 3s, 1.5s)
 
 .sub
 	display: inline-block
@@ -63,13 +64,14 @@ h1
 	height: auto
 	margin: 0.2em auto
 	border: 0.5em #444 solid
+	opacity: 0.6
 	+border-radius(0.1em)
 	+box-shadow(#222 0 0 0.5em)
 	+transition(all 0.6s ease-in-out)
-	//&:hover
-		//z-index: 9999
-		//opacity: 1
-		//+scale(1.4)
+	&:hover
+		z-index: 9999
+		opacity: 1
+		+scale(1.1)
 
 #about
 	font: 1.7em "Capsuula"
