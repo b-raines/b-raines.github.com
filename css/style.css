@@ -2639,7 +2639,6 @@ h1 {
 /* line 58, ../sass/style.sass */
 .brent {
   z-index: 0;
-  opacity: 0.8;
   display: inline-block;
   position: relative;
   width: 15%;
@@ -2659,7 +2658,7 @@ h1 {
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out; }
 
-/* line 75, ../sass/style.sass */
+/* line 74, ../sass/style.sass */
 #about {
   font: 1.7em "Capsuula";
   color: #cccccc;
@@ -2677,22 +2676,22 @@ h1 {
   -o-border-radius: 0.2em;
   border-radius: 0.2em; }
 
-/* line 86, ../sass/style.sass */
+/* line 85, ../sass/style.sass */
 footer {
   position: relative;
   bottom: -12em;
   width: 100%;
   height: 20em; }
-  /* line 91, ../sass/style.sass */
+  /* line 90, ../sass/style.sass */
   footer ul {
     text-align: center; }
-    /* line 93, ../sass/style.sass */
+    /* line 92, ../sass/style.sass */
     footer ul li {
       display: inline;
       margin: 0 3em;
       padding: 0 1em;
       bottom: 0.5em; }
-      /* line 98, ../sass/style.sass */
+      /* line 97, ../sass/style.sass */
       footer ul li img {
         width: 4em;
         height: 4em; }
