@@ -2632,21 +2632,23 @@ html {
 
 /* line 12, ../sass/style.sass */
 #page {
-  position: fixed;
-  background: url('../images/background.jpg?1373665242') no-repeat;
-  background-size: 100%;
+  background: url('../images/background.jpg?1373665242') no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
   background-color: black;
   color: black;
   font-size: 62.5%;
-  margin-bottom: 20em; }
+  margin-bottom: 20em;
+  overflow: hidden; }
 
-/* line 21, ../sass/style.sass */
+/* line 23, ../sass/style.sass */
 h1 {
   font: times, serif;
   font-size: 2em; }
 
 /* title of page (Brent Raines) */
-/* line 26, ../sass/style.sass */
+/* line 28, ../sass/style.sass */
 #title {
   display: inline-block;
   color: white;
@@ -2660,13 +2662,13 @@ h1 {
   animation: grow 3s 1.5s ease both; }
 
 /* subtext of title (man. myth. legend.) */
-/* line 35, ../sass/style.sass */
+/* line 37, ../sass/style.sass */
 .sub {
   display: inline-block;
   font: 1.2em "Aaargh";
   color: #eeeeee; }
 
-/* line 40, ../sass/style.sass */
+/* line 42, ../sass/style.sass */
 #man {
   -webkit-animation: fadeIn 4s 1.5s ease both;
   -moz-animation: fadeIn 4s 1.5s ease both;
@@ -2674,7 +2676,7 @@ h1 {
   -o-animation: fadeIn 4s 1.5s ease both;
   animation: fadeIn 4s 1.5s ease both; }
 
-/* line 43, ../sass/style.sass */
+/* line 45, ../sass/style.sass */
 #myth {
   -webkit-animation: fadeIn 4s 3s ease both;
   -moz-animation: fadeIn 4s 3s ease both;
@@ -2682,7 +2684,7 @@ h1 {
   -o-animation: fadeIn 4s 3s ease both;
   animation: fadeIn 4s 3s ease both; }
 
-/* line 46, ../sass/style.sass */
+/* line 48, ../sass/style.sass */
 #legend {
   -webkit-animation: fadeIn 4s 4.5s ease both;
   -moz-animation: fadeIn 4s 4.5s ease both;
@@ -2691,12 +2693,12 @@ h1 {
   animation: fadeIn 4s 4.5s ease both; }
 
 /* div containing images */
-/* line 50, ../sass/style.sass */
+/* line 52, ../sass/style.sass */
 #pics {
   text-align: center; }
 
 /* images */
-/* line 54, ../sass/style.sass */
+/* line 56, ../sass/style.sass */
 .brent {
   z-index: 0;
   display: inline-block;
@@ -2718,7 +2720,7 @@ h1 {
   -moz-transition: all 0.6s ease-in-out;
   -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out; }
-  /* line 66, ../sass/style.sass */
+  /* line 68, ../sass/style.sass */
   .brent:hover {
     z-index: 9999;
     opacity: 1;
@@ -2729,7 +2731,7 @@ h1 {
     transform: scale(1.1, 1.1); }
 
 /* Paragraph about me */
-/* line 72, ../sass/style.sass */
+/* line 74, ../sass/style.sass */
 #about {
   font: 1.7em "Capsuula";
   color: #cccccc;
@@ -2748,22 +2750,22 @@ h1 {
   border-radius: 0.2em; }
 
 /* links to fb, twittter, linkedin */
-/* line 84, ../sass/style.sass */
+/* line 86, ../sass/style.sass */
 footer {
   position: relative;
   bottom: -12em;
   width: 100%;
   height: 20em; }
-  /* line 89, ../sass/style.sass */
+  /* line 91, ../sass/style.sass */
   footer ul {
     text-align: center; }
-    /* line 91, ../sass/style.sass */
+    /* line 93, ../sass/style.sass */
     footer ul li {
       display: inline;
       margin: 0 3em;
       padding: 0 1em;
       bottom: 0.5em; }
-      /* line 96, ../sass/style.sass */
+      /* line 98, ../sass/style.sass */
       footer ul li img {
         width: 4em;
         height: 4em; }
