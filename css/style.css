@@ -2633,7 +2633,7 @@ html {
 /* line 12, ../sass/style.sass */
 #page {
   position: fixed;
-  background-image: url('../images/background.jpg?1373665242');
+  background: url('../images/background.jpg?1373665242') no-repeat;
   background-size: 100%;
   color: black;
   font-size: 62.5%;
