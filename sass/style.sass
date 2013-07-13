@@ -3,8 +3,8 @@
 //Animations
 @import "animate"
 
-+font-face("Aaargh", font-files("Aaargh.ttf"))
-+font-face("Capsuula", font-files("Capsuula.ttf"))
+//Fonts
+@import "typography"
 
 html
 	font-size: 16px
@@ -22,13 +22,7 @@ h1
 	font: times, serif
 	font-size: 2em
 
-#content
-	width: 60%
-	margin: 2em auto 0 auto
-	padding: 1em 4em 4em
-	background-color: rgba(#333, 0.7)
-	+box-shadow(#000 0 0 1em)
-
+/* title of page (Brent Raines) */
 #title
 	display: inline-block
 	color: #fff
@@ -37,6 +31,7 @@ h1
 	padding: 0.2em 0.4em
 	+animate(grow, 3s, 1.5s)
 
+/* subtext of title (man. myth. legend.) */
 .sub
 	display: inline-block
 	font: 1.2em "Aaargh"
@@ -51,10 +46,11 @@ h1
 #legend
 	+animate(fadeIn, 4s, 4.5s)
 
-
+/* div containing images */
 #pics
 	text-align: center
 
+/* images */
 .brent
 	z-index: 0
 	display: inline-block
@@ -72,6 +68,7 @@ h1
 		opacity: 1
 		+scale(1.1)
 
+/* Paragraph about me */
 #about
 	font: 1.7em "Capsuula"
 	color: #ccc
@@ -83,6 +80,7 @@ h1
 	+box-shadow(#222 0 0 1em)
 	+border-radius(0.2em)
 
+/* links to fb, twittter, linkedin */
 footer
 	position: relative
 	bottom: -12em
