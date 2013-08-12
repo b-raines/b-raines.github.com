@@ -8,28 +8,32 @@
 	<title>Super Blog</title>
 </head>
 
-<body id="page">
+<body>
 
-	<header id="main-header">
-		<a href="index.html"><img id="logo" src="images/blog-logo.png" alt="blog logo" /></a>
-		<nav id="top-nav">
-			<ul>
-				<li><a href="about.html">about</a></li>
-				<li><a href="archives.html">archives</a></li>
-				<li><a href="contact.html">contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div id="wrapper">
+		<header id="main-header">
+			<a href="index.html"><img id="logo" src="images/blog-logo.png" alt="blog logo" /></a>
+			<nav id="top-nav">
+				<ul>
+					<li><a href="about.html">about</a></li>
+					<li><a href="archives.html">archives</a></li>
+					<li><a class="active" href="contact.html">contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<header><h1>Contact Information</h1></header>
-		<ul>
-			<li>Phone: 123-4567</li>
-			<li><a href="mailto:bt.raines@gmail.com?subject=You've just won!&body=...nothing">Email us</a></li>
-		</ul>
+		<section>
+			<h2>Contact Information</h2>
+				<ul id="contact">
+					<li>Phone: 123-4567</li>
+					<li><a id="email" href="mailto:bt.raines@gmail.com?subject=You've just won!&body=...nothing">Email Us</a></li>
+				</ul>
+		</section>
 
-	<footer id="main-footer">
-		<p id="copyright">&#169;SuperBlog 2013</p>
-	</footer>
+		<footer id="main-footer">
+			<p id="copyright">&#169;SuperBlog 2013</p>
+		</footer>
+	</div>
 	
 </body>
 </html>
