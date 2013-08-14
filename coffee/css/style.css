@@ -113,13 +113,15 @@ a:hover {
 	padding: 0;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 550px) {
 	.col {
 		margin: 0 auto;
 		width: 90%;
 		padding: 2% 5%;
 	}
+}
 
+@media (max-width: 425px) {
 	#top-nav {
 		height: 6em;
 		margin-top: 1em;
@@ -132,4 +134,5 @@ a:hover {
 		padding-top: 0.2em;
 		padding-bottom: 0.2em;
 	}
+
 }
