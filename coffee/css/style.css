@@ -76,6 +76,7 @@ a:hover {
 	width: 100%;
 	text-align: center;
 	font-size: 1.5em;
+	overflow: auto;
 }
 
 .content h2 {
@@ -90,10 +91,13 @@ a:hover {
 	margin: 1em 5% 2em;
 }
 
+.clear {
+	clear: both;
+}
+
 #main-footer {
 	display: block;
 	width: 100%;
-	clear: both;
 	background-color: #230b03;
 	color: #cebb99;
 	text-align: center;
@@ -107,4 +111,25 @@ a:hover {
 #contact {
 	list-style: none;
 	padding: 0;
+}
+
+@media (max-width: 425px) {
+	.col {
+		margin: 0 auto;
+		width: 90%;
+		padding: 2% 5%;
+	}
+
+	#top-nav {
+		height: 6em;
+		margin-top: 1em;
+	}
+	
+	#top-nav ul li {
+		display: inline-block;
+		width: 30%;
+		margin: 0 auto;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+	}
 }
