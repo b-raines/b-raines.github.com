@@ -117,7 +117,12 @@ a:hover {
 	.col {
 		margin: 0 auto;
 		width: 90%;
+		text-align: justify;
 		padding: 2% 5%;
+	}
+
+	.col h2 {
+		text-align: center;
 	}
 }
 
